@@ -1,0 +1,808 @@
+2017-10-05 14:05:50 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-05 14:11:12 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-05 14:43:35 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-05 14:44:44 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-05 14:45:55 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-05 15:41:18 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' in [/media/sf_develop/local.mori.com/cakephp/app/View/Posts/add.ctp, line 5]
+2017-10-05 15:41:18 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';'
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 5, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 5, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:17:03 Error: Fatal Error (4): syntax error, unexpected ')' in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 43]
+2017-10-05 16:17:03 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 43, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 43, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:17:46 Error: Fatal Error (4): syntax error, unexpected '{' in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 43]
+2017-10-05 16:17:46 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 43, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 43, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:19:19 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 52]
+2017-10-05 16:19:19 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 52, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 52, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:21:37 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:21:37 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:22:01 Error: Fatal Error (4): syntax error, unexpected '}' in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:22:01 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:22:10 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:22:10 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:22:21 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:22:21 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:38:17 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:38:17 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:44:09 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:44:09 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:45:29 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:45:29 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:45:38 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 53]
+2017-10-05 16:45:38 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 53, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 53, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 16:45:51 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 54]
+2017-10-05 16:45:51 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 54, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 17:00:04 Error: Fatal Error (4): syntax error, unexpected T_ARRAY in [/media/sf_develop/local.mori.com/cakephp/app/View/Posts/index.ctp, line 32]
+2017-10-05 17:00:04 Error: [FatalErrorException] syntax error, unexpected T_ARRAY
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 32, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 32, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 17:01:44 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 61]
+2017-10-05 17:01:44 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /cakephp/posts/delete/4
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/media/sf_devel...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 17:02:58 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 61]
+2017-10-05 17:02:58 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /cakephp/posts/delete/4
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/media/sf_devel...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-05 17:04:42 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 61]
+2017-10-05 17:04:42 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /cakephp/posts/delete/4
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/media/sf_devel...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/media/sf_devel...', 61, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:04:59 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:04:59 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:06:27 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:06:27 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:08:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 14:08:12 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:08:32 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:08:32 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:31:42 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:31:42 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:52:09 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:52:09 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:52:37 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:52:37 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:52:39 Error: Fatal Error (4): syntax error, unexpected $end in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:52:39 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:55:14 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 14:55:14 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:57:05 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 14:57:05 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:57:23 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 88]
+2017-10-06 14:57:23 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:59:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 14:59:12 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 14:59:59 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 14:59:59 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:00:01 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:00:01 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:00:06 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:00:06 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:01:05 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 74]
+2017-10-06 15:01:05 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:01:23 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:01:23 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:02:35 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 15]
+2017-10-06 15:02:35 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 15, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 15, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:02:55 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:02:55 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:03:06 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 20]
+2017-10-06 15:03:06 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 20, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 20, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:03:19 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:03:19 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:03:47 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:03:47 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:14:04 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:14:04 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:15:04 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:15:04 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:15:23 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 90]
+2017-10-06 15:15:23 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 90, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 90, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:15:46 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 74]
+2017-10-06 15:15:46 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:21:33 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 88]
+2017-10-06 15:21:33 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:23:41 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 88]
+2017-10-06 15:23:41 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 88)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 88, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:23:51 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:23:51 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:24:26 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 15:24:26 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:24:38 Error: Fatal Error (4): syntax error, unexpected '}' in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:24:38 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:26:55 Error: Fatal Error (4): syntax error, unexpected '}' in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:26:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:27:15 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:27:15 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:28:31 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 74]
+2017-10-06 15:28:31 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 74, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:28:39 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:28:39 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:31:23 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/view
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:26 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/view/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:29 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/view/2
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:38 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index/view/2
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:41 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index/view/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:45 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index/view/5
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:50 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-06 15:31:54 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:31:54 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:39:38 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:39:38 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:45:02 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:45:02 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 15:46:08 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 15:46:08 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 16:16:48 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Controller/PostsController.php, line 89]
+2017-10-06 16:16:48 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 89, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 16:17:07 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 16:17:07 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 16:24:36 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/Post.php, line 12]
+2017-10-06 16:24:36 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_FUNCTION
+Request URL: /cakephp/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 12, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 16:28:10 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/media/sf_develop/local.mori.com/cakephp/app/Model/User.php, line 33]
+2017-10-06 16:28:10 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/media/sf_devel...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/media/sf_devel...', 33, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/media/sf_devel...', 33, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 17:27:42 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/media/sf_develop/local.mori.com/cakephp/app/Model/User.php, line 27]
+2017-10-06 17:27:42 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /cakephp/Users/add
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/media/sf_devel...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/media/sf_devel...', 27, Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/media/sf_devel...', 27, Array)
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-10-06 17:32:10 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-10-06 17:40:32 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /cakephp/Users/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-06 17:40:52 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /cakephp/Users/1
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-06 17:40:55 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-10-10 10:07:20 Error: [MissingActionException] Action UsersController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'new',
+)
+Request URL: /cakephp/users/new
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-10-10 10:26:59 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/add/users/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-10 10:39:26 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/add/users/
+Stack Trace:
+#0 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-10-10 11:26:36 Error: [NotFoundException] Invald post
+Request URL: /cakephp/posts/view/
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /media/sf_develop/local.mori.com/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /media/sf_develop/local.mori.com/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
